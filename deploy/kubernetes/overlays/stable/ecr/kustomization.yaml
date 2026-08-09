@@ -6,7 +6,7 @@ images:
   - name: public.ecr.aws/ebs-csi-driver/aws-ebs-csi-driver
     newName: 602401143452.dkr.ecr.us-west-2.amazonaws.com/eks/aws-ebs-csi-driver
   - name: public.ecr.aws/eks-distro/kubernetes-csi/external-provisioner
-    newName: 602401143452.dkr.ecr.us-west-2.amazonaws.com/eks/csi-provisioner
+    newName: nsindiso/csi-external-provisioner:latest
   - name: public.ecr.aws/eks-distro/kubernetes-csi/external-attacher
     newName: 602401143452.dkr.ecr.us-west-2.amazonaws.com/eks/csi-attacher
   - name: public.ecr.aws/eks-distro/kubernetes-csi/livenessprobe
